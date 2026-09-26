@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>👨‍🌾 Farmer Dashboard</h1>
+    <p>Add products to your store.</p>
+
+    <div class="form-box">
+
+        <input type="text" id="productName" placeholder="Product Name">
+
+        <input type="number" id="productPrice" placeholder="Price (₹/kg)">
+
+        <button onclick="addProduct()">Add Product</button>
+
+    </div>
+
+    <h2>Your Products</h2>
+
+    <div id="productList" class="products"></div>
+
+    <br>
+
+    <a href="index.html">
+        <button class="back-btn">⬅ Back to Home</button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
